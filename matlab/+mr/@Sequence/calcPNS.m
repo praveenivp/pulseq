@@ -97,7 +97,7 @@ hw.x.a2          = asc.flGSWDAX(2);
 hw.x.a3          = asc.flGSWDAX(3);
 hw.x.stim_limit  = asc.flGSWDStimulationLimitX;  % T/m/s
 hw.x.stim_thresh = asc.flGSWDStimulationThresholdX;  % T/m/s
-hw.x.g_scale     = asc.asGPAParameters.sGCParameters.flGScaleFactorX;
+hw.x.g_scale     = asc.flGCGScaleFactorX;
 
 hw.y.tau1        = asc.flGSWDTauY(1);  % ms
 hw.y.tau2        = asc.flGSWDTauY(2);  % ms
@@ -107,7 +107,7 @@ hw.y.a2          = asc.flGSWDAY(2);
 hw.y.a3          = asc.flGSWDAY(3);
 hw.y.stim_limit  = asc.flGSWDStimulationLimitY;  % T/m/s
 hw.y.stim_thresh = asc.flGSWDStimulationThresholdY;  % T/m/s
-hw.y.g_scale     = asc.asGPAParameters.sGCParameters.flGScaleFactorY;
+hw.y.g_scale     = asc.flGCGScaleFactorY;
 
 hw.z.tau1        = asc.flGSWDTauZ(1);  % ms
 hw.z.tau2        = asc.flGSWDTauZ(2);  % ms
@@ -117,5 +117,5 @@ hw.z.a2          = asc.flGSWDAZ(2);
 hw.z.a3          = asc.flGSWDAZ(3);
 hw.z.stim_limit  = asc.flGSWDStimulationLimitZ;  % T/m/s
 hw.z.stim_thresh = asc.flGSWDStimulationThresholdZ;  % T/m/s
-hw.z.g_scale     = asc.asGPAParameters.sGCParameters.flGScaleFactorZ;
+hw.z.g_scale     = asc.flGCGScaleFactorZ;
 end
